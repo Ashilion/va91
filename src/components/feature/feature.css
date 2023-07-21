@@ -45,7 +45,7 @@
 }
 
 .gpt3__features-container_feature-text p{
-    color: #81AFDD;
+    color: var(--color-text);
     font-family: var(--color-text);
     font-size: 16px;
     font-weight: 500;

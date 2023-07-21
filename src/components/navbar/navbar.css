@@ -51,7 +51,10 @@
 .gpt3__navbar-menu_container p:hover{
     color: var(--color-hover);
 }
-
+.gpt3__navbar-sign img{
+    width: 70px;
+    margin-left: 3rem;
+}
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
     color:#fff;

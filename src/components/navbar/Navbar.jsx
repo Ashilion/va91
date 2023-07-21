@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css'
 import  {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/va91-logo.png'
+import logoathle91 from '../../assets/logo-athle91-2.png'
 import { useState } from 'react'
 
 const Menu = () => (
@@ -28,6 +29,7 @@ const Navbar = () => {
       </div>
       <div className='gpt3__navbar-sign'>
         <button type="button">S'inscrire</button>
+        <img src ={logoathle91} alt="logo"/>
       </div>
       <div className='gpt3__navbar-menu'>
         {
@@ -41,7 +43,7 @@ const Navbar = () => {
               <div className='gpt3__navbar-menu_container'>
                 <Menu />
                 <div className='gpt3__navbar-menu_container-links-sign'>
-                  <button type="button">Sign up</button>
+                  <button type="button">S'inscrire</button>
                 </div>
               </div>
             </div>
