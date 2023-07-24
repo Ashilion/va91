@@ -1,7 +1,7 @@
 import "./header.css"
 import React from 'react'
 import people from '../../assets/people.png'
-import runner from '../../assets/running1.png'
+import runner from '../../assets/runner-green.png'
 
 const Header = () => {
   return (

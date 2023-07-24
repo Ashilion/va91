@@ -33,7 +33,7 @@
 
 
 .gpt3__header-image {
-    flex: 1;
+    flex: 0.6;
     display: flex;
     justify-content: center;
     align-items: center;

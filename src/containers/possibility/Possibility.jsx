@@ -1,6 +1,6 @@
 import React from 'react'
 import "./possibility.css"
-import track from '../../assets/track.png'
+import track from '../../assets/track3.png'
 
 const Possibility = () => {
   return (

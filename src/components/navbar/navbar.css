@@ -66,7 +66,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    background: #FF4820;
+    background: #15af3c;
     border-radius: 5px;
     border:0;
     outline: none;
@@ -77,7 +77,7 @@
 
 .gpt3__navbar-sign button:hover,
 .gpt3__navbar-menu_container button:hover{
-    background: #d43108;
+    background: #56ff22;
 }
 
 .gpt3__navbar-menu{
