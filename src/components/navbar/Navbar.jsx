@@ -32,6 +32,7 @@ const Navbar = () => {
         <img src ={logoathle91} alt="logo"/>
       </div>
       <div className='gpt3__navbar-menu'>
+        {/* <img src ={logoathle91} alt="logo"/> */}
         {
           toggleMenu ? 
           <RiCloseLine onClick={()=>setToggleMenu(false)} color='#fff' size={27}/> 
@@ -39,13 +40,17 @@ const Navbar = () => {
         }
         {
           toggleMenu && (
+            
             <div className='gpt3__navbar-menu_container scale-up-center'>
+              
               <div className='gpt3__navbar-menu_container'>
                 <Menu />
                 <div className='gpt3__navbar-menu_container-links-sign'>
                   <button type="button">S'inscrire</button>
+                  
                 </div>
               </div>
+              
             </div>
           )
         }
