@@ -4,6 +4,7 @@ import  {RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import logo from '../../assets/va91-logo.png'
 import logoathle91 from '../../assets/logo-athle91-2.png'
 import { useState } from 'react'
+import { motion } from "framer-motion"
 
 const Menu = () => (
   <>
@@ -17,7 +18,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu,setToggleMenu] = useState(false);
   return (
-    <div className = "gpt3__navbar">
+    <motion.div className = "gpt3__navbar" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }}>
       <div className ="gpt3__navbar-links">
         <div className = "gpt3__navbar-links_logo">
             <img src ={logo} alt="logo"/>
@@ -55,7 +56,7 @@ const Navbar = () => {
           )
         }
       </div>
-    </div>
+    </motion.div>
   )
 }
 

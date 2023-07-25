@@ -9,13 +9,14 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      
+      <CTA />
+      <Possibility /> 
       <WhatGPT3 />
       
       <Features />
       <Blog />
-      <Possibility /> 
-      <CTA />
+      
+      
       
       <Brand />
       <Footer />
