@@ -1,9 +1,10 @@
 import React from 'react'
 import './article.css'
+import { motion } from 'framer-motion'
 
-const Article = ({imgUrl, date, title}) => {
+const Article = ({imgUrl, date, title,delay=0}) => {
   return (
-    <div className="gpt3__blog-container_article">
+    <motion.div className="gpt3__blog-container_article" initial={{ opacity: 0 , x:-300 }} whileInView={{ opacity: 1 ,x:0}} transition={{ duration: 0.6 ,delay:delay}}>
       <div className='gpt3__blog-container_article-image'>
         <img src={imgUrl} alt="blog image" />
       </div>
@@ -14,7 +15,7 @@ const Article = ({imgUrl, date, title}) => {
         </div>
         <p> Read Full Article</p>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,16 +1,17 @@
 import React from 'react'
 import './cta.css'
+import { motion } from 'framer-motion'
 
 const CTA = () => {
   return (
     <div className='gpt3__cta' id="cta">
       <div className='gpt3__cta-content'>
-        <p>Request Early Access to Get Started</p>
-        <h3>Register today & start exploring the endless possiblities.</h3>
+        <motion.p  initial={{ opacity: 0 , x:-300 }} whileInView={{ opacity: 1 ,x:0}} transition={{ duration: 0.6 ,delay:0}}>La nouvelle saison commence</motion.p>
+        <motion.h3 initial={{ opacity: 0 , x:-300 }} whileInView={{ opacity: 1 ,x:0}} transition={{ duration: 0.6 ,delay:0.2}}>Inscrivez vous dès maintenant</motion.h3>
       </div>
-      <div className='gpt3__cta-btn'>
-        <button type='button'>Get Started</button>
-      </div>
+      <motion.div className='gpt3__cta-btn' initial={{ opacity: 0 , x:200 }} whileInView={{ opacity: 1 ,x:0}} transition={{ duration: 0.6 ,delay:0.4}}>
+        <button type='button'>Fiche d'inscription 2023/2024</button>
+      </motion.div>
     </div>
   )
 }
