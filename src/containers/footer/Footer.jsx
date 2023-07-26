@@ -21,8 +21,8 @@ const Footer = () => {
           <h4>Liens importants</h4>
           <p>Groupe et Horaires</p>
           <p>Les foulées vertes</p>
-          <p>Instagram</p>
-          <p>Facebook</p>
+          <p>Photos</p>
+          <p>Résultats</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Nous situer</h4>

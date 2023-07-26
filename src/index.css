@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Rubik:wght@400;600;700&display=swap');
 
 /* :root {
   --font-family: 'Manrope', sans-serif;
@@ -19,7 +20,7 @@
 
 :root {
   --font-family: 'Fira Sans', sans-serif;
-
+  --font-title : 'Dancing Script', sans-serif;
   --gradient-text: linear-gradient(89.97deg, #48d11e 1.84%, #ebf467 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #6cfa67 -13.86%, #fff281 99.55%);
   

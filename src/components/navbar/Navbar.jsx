@@ -18,7 +18,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu,setToggleMenu] = useState(false);
   return (
-    <motion.div className = "gpt3__navbar" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }}>
+    <motion.div className = "gpt3__navbar" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} viewport={{ once: true }}>
       <div className ="gpt3__navbar-links">
         <div className = "gpt3__navbar-links_logo">
             <img src ={logo} alt="logo"/>

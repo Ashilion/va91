@@ -1,26 +1,17 @@
-import {Article, Brand, CTA, Feature, Navbar} from "./components";
-import {Blog, Footer, Features, Header, Possibility, WhatGPT3} from "./containers";
+import Accueil from './pages/accueil/Accueil';
 import './App.css'
+import Navbar from './components/navbar/Navbar';
+import { Routes, Route } from 'react-router-dom';
+import Horaire from './pages/horaires/Horaires';
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
-      </div>
-      <CTA />
-      <Possibility /> 
-      <WhatGPT3 />
-      
-      <Features />
-      <Blog />
-      
-      
-      
-      <Brand />
-      <Footer />
-
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/horaires" element={<Horaire />} />
+      </Routes>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import "./header.css"
 import React from 'react'
-import people from '../../assets/people.png'
 import runner from '../../assets/runner-green.png'
 import { motion } from "framer-motion"
 

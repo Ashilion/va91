@@ -2,6 +2,7 @@ import React from 'react'
 import "./whatGPT3.css"
 import { Feature } from '../../components'
 import {motion} from 'framer-motion'
+import {Link} from 'react-router-dom'
 
 const WhatGPT3 = () => {
   return (
@@ -17,7 +18,7 @@ const WhatGPT3 = () => {
         <h1 className='gradient__text' >
           Sprint, Sauts, Lancers, Demi fond
         </h1>
-        <p>Découvre les horaires d'entrainements</p>
+        <p><Link to="horaires">Découvre les horaires d'entrainements </Link></p>
       </div>  
       <div className="gpt3__whatgpt3-container">
         <Feature 

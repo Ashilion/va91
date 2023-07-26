@@ -34,7 +34,7 @@
     color:var(--color-subtext-hover);
 }
 .gpt3__possibility-content h1{
-    font-family: var(--font-family);
+    font-family: var(--font-title);
     font-size: 34px;
     font-weight: 800;
     line-height: 45px; /* 132.353% */

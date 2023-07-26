@@ -14,7 +14,7 @@
 }
 
 .gpt3__header-content h1{
-    font-family: var(--font-family);
+    font-family: var(--font-title);
     font-weight: 800;
     font-size: 64px;
     line-height: 75px;

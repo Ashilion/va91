@@ -1,0 +1,77 @@
+.title {
+    margin-left: 50px;
+    font-size: 50px;
+    line-height:45px;
+    font-weight:800;
+    font-family:var(--font-title);
+}
+
+.gpt3__horaires{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 70vh;
+    margin:40px;
+    }
+
+.gpt3__horaires-box{
+    border-radius: .5rem;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.gpt3__horaires-box:hover{
+    transform: scale(1.02);
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.gpt3__horaires-box_head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.gpt3__horaires-box ul{
+    margin-left:40px;
+}
+
+#baby{
+    background-color: #D8F3DC;
+}
+#poussin{
+    background-color: #B7E4C7;
+}
+#benjamin{
+    background-color: #95D5B2;
+}
+
+#minime{
+    background-color: #74C69D;
+}
+
+#saut{
+    background-color: #B7E4C7;
+}
+
+#lancer{
+    background-color: #40916C;
+}
+
+#sprint{
+    background-color: #398361;
+}
+
+#demi-fond{
+    background-color: #64c795;
+}   
+
+#demi-fond-loisir{
+    background-color: #97ebb4;
+}
+
+#perche{
+    background-color: #D8F3DC;  
+}
