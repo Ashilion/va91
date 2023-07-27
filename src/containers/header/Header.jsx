@@ -1,6 +1,6 @@
 import "./header.css"
 import React from 'react'
-import runner from '../../assets/runner-green.png'
+import runner from '../../assets/running1.png'
 import { motion } from "framer-motion"
 
 const Header = () => {

@@ -21,14 +21,14 @@
 :root {
   --font-family: 'Fira Sans', sans-serif;
   --font-title : 'Dancing Script', sans-serif;
-  --gradient-text: linear-gradient(89.97deg, #48d11e 1.84%, #ebf467 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #6cfa67 -13.86%, #fff281 99.55%);
+  --gradient-text: linear-gradient(89.97deg, #f06406 1.84%, #fcff35 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ff6434 -13.86%, #ffec40 99.55%);
   
-  --color-bg: #fdfffb;
-  --color-footer : #f1ffea; 
-  --color-blog: #e9ffcc;
-  --color-text2: #1b003d;
-  --color-text: #0c6811;
+  --color-bg: #252525;
+  --color-footer : #424242; 
+  --color-blog: #6e6e6e;
+  --color-text2: #ffffff;
+  --color-text: #e0e0e0;
   --color-subtext: #1228eb;
   --color-subtext-hover: #0cefff;
   --color-hover: #2aeb34;
