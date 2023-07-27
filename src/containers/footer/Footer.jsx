@@ -1,16 +1,17 @@
 import "./footer.css"
 import React from 'react'
 import viryLogo from '../../assets/va91-logo.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text">Tu veux devenir la star de demain</h1>
+        <h1 className="gradient__text">Plus d'informations sur l'inscription</h1>
 
       </div>
       <div className="gpt3__footer-btn">
-        <p>Inscris Toi</p>
+        <p>Plus d'infos</p>
       </div>
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
@@ -19,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Liens importants</h4>
-          <p>Groupe et Horaires</p>
+          <p><Link to="horaires">Groupes et horaires </Link></p>
           <p>Les foulées vertes</p>
           <p>Photos</p>
           <p>Résultats</p>
