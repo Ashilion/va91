@@ -11,7 +11,7 @@ const Menu = () => (
   <>
   <p><a href="#home">Accueil</a></p>
   <p> <a href="#whatgpt3">Qui Sommes Nous ?</a> </p>
-  <p> <a href="#possibility">Activités</a> </p>
+  <p> <Link to="foulees">Foulées Vertes</Link> </p>
   <p> <a href="#features">Dernières News</a> </p>
   <p> <a href="#blog">Nous Contacter</a> </p>
   </>

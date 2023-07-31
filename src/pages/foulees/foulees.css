@@ -1,9 +1,9 @@
-.gpt3__inscription{
+.gpt3__foulees{
     display: flex;
     flex-direction: row;
 }
 
-.gpt3__inscription_header h1  {
+.gpt3__foulees_header h1  {
     font-family: var(--font-title);
     font-size: 70px;
     font-weight: 700;
@@ -12,7 +12,7 @@
 
 }
 
-.gpt3__inscription_header p{
+.gpt3__foulees_header p{
     font-family: var(--font-family);
     font-size: 18px;
     font-weight: 400;
@@ -21,7 +21,7 @@
     color: var(--color-text);
 }   
 
-.gpt3__inscription_header{
+.gpt3__foulees_header{
     flex:1;
     display:flex;
     flex-direction:column;
@@ -29,7 +29,7 @@
     margin-top: 2rem;
 }
 
-.gpt3__inscription-btn button{
+.gpt3__foulees-btn button{
     background: var(--color-subtext);
     color: #fff;
 
@@ -49,13 +49,23 @@
     transition: all 0.3s ease-in-out;
 }
 
-.gpt3__inscription-btn button:hover{
+.gpt3__foulees-btn button:hover{
     background: var(--color-subtext-hover);
 }
-.gpt3__inscription-btn{
+.gpt3__foulees-btn{
     margin-top: 2rem;
 }
 
-.gpt3__inscription-image{
-    flex:0.6
+
+.gpt3__foulees-image {
+    flex: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem
+}
+
+.gpt3__foulees-image img {
+    width: 100%;
+    height: 100%;
 }
