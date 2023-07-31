@@ -5,6 +5,7 @@ import logo from '../../assets/va91-logo.png'
 import logoathle91 from '../../assets/logo-athle91-2.png'
 import { useState } from 'react'
 import { motion } from "framer-motion"
+import {Link} from 'react-router-dom'
 
 const Menu = () => (
   <>
@@ -29,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
-        <button type="button">S'inscrire</button>
+          <Link to ="/inscription"><button type="button">S'inscrire</button></Link>
         <img src ={logoathle91} alt="logo"/>
       </div>
       <div className='gpt3__navbar-menu'>
